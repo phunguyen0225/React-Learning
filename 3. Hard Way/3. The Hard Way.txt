@@ -1,0 +1,15 @@
+									Using React: Part III: The Hard Way
+
+The Hard Way:
+
+	Dig into the DOM
+
+	Too much work even for simple data
+
+	Gets progessively worst on effort
+
+	Too much to remember
+
+	Error prone
+
+	No going home :(
