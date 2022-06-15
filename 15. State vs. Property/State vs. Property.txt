@@ -1,0 +1,11 @@
+- Passing property
+
+- Keeping state
+
+- When to use property?
+    - we want to use property if we want to send configuration data.
+    - do not change property value
+- When to use state
+- General guidelines
+    -use the properties but do not change it. 
+    -state my change overtime as events happen
