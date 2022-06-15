@@ -1,0 +1,5 @@
+- creating custom elements
+    -create a component
+    - use its name as element name
+    - pass properties
+    - caution with key
