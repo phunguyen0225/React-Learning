@@ -1,0 +1,6 @@
+- a DisplayCount component
+
+- Using JSX
+    - pass child element
+    - using props
+    - using props.children
