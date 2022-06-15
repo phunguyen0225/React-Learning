@@ -1,0 +1,9 @@
+- What to do in the contructor?
+    -set state 
+- What to do elsewhere?
+    -change state using setState
+- Read state directly
+
+- Don't change the state elsewhere
+
+- Don't use setState in the constructor
