@@ -1,0 +1,48 @@
+- multiple values
+    - we are dealing with a collection, an array of values
+- Efficiency?
+    - if you have a large collection it would affect efficiency
+- What's a key?
+    - a string value
+    - all siblings different keys
+    - needed for Efficiency
+    - unique among siblings
+    - avoid duplication
+        - if you accidentally duplication it might update the wrong element
+
+
+BEFORE USING KEYS:
+
+import { Component, createElement } from "react";
+
+export default class App extends Component {
+  render() {
+    const values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    const numbers = values.map(number =>
+        createElement('li', null, number));
+
+    return createElement('div', null, 
+        createElement('h2', null, 'Numbers'),
+        createElement('ul', null, numbers));
+  }
+}
+
+WARNING FROM CONSOLE:
+Warning: Each child in a list should have a unique "key" prop.
+
+
+USING KEYS:
+
+import { Component, createElement } from "react";
+
+export default class App extends Component {
+  render() {
+    const values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    const numbers = values.map(number =>
+        createElement('li', {key: number.toString()}, number));
+
+    return createElement('div', null, 
+        createElement('h2', null, 'Numbers'),
+        createElement('ul', null, numbers));
+  }
+}
