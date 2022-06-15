@@ -1,0 +1,7 @@
+- what's so special about state?
+
+    - Binding of state to the view
+    - changing state
+        - we should never change the state directly anywhere in the code except in the constructor
+        - to change the state we should call the setState()
+- render is invoke automatically
