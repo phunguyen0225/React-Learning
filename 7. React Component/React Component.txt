@@ -1,0 +1,6 @@
+- What's a component?
+
+    - resuable of code
+    - piece of code that display a view 
+    - may have children
+    - may have state
