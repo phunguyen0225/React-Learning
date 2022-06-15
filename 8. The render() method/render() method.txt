@@ -1,0 +1,16 @@
+- Browser DOM
+    - display a real DOM
+- React DOM
+    - when you render something, you are rendering a virtual DOM, that will compare with the real DOM and return it
+- render() craete a hierarchy of React elements
+    
+- React will convert React DOM to Browerser DOM
+
+- The render() method may take
+
+    - string
+    - number
+    - null 
+    - boolean
+    - element
+    - array of elements
