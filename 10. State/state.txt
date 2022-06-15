@@ -1,0 +1,8 @@
+- keeping data in State
+    - we can keep state in the component
+- Good news and bad news
+    - it become messy when we start to move state between components. 
+    - using redux is a better solution then keeping a state in a component
+- what should we use state?
+    - a state is useful when we have a piece of data in a component that change overtime
+- Rendering the state
