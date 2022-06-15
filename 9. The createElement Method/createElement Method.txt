@@ -1,0 +1,20 @@
+- createElement(Component, properties, children )
+
+- creating an element
+
+    render() {
+        return createElement('div', null, 'hello')
+    }
+
+- creating children
+
+    render() {
+        return createElement('div', null,
+                createElement('span', null, 'hello'))
+    }
+
+- properties
+
+    render() {
+        return createElement('div', {style: {color: 'red'}}, 'hello')
+    }
