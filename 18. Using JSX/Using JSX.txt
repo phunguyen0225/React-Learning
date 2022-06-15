@@ -1,0 +1,25 @@
+-creating elements
+    -rather unwieldy
+    -hard to write
+    -hard to read
+
+- A choice you have to make. You have to decide if you want to put HTML into JavaScript - React way
+put JavaScript into HTML - Angular way
+
+- JavaScript eXtensions
+    - feels like HTML
+    - React JSX tags
+    - type becomes tags
+    - attributes becomes attributes
+    - children becomes children
+
+- JSX
+    React.createElement(type, properties, children)
+    becomes
+    <type properties> children </type>
+
+- JSX
+    React.createElement('div', {className: value}, 'test')
+    becomes
+    <div className = {value}>test</div>
+    - {...} is a Javascript
