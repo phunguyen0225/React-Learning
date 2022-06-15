@@ -1,0 +1,41 @@
+- Components can have state 
+
+- They can also receive properties
+
+index.js:
+
+import {createElement} from 'react';
+import {createRoot} from 'react-dom/client';
+import App from './App';
+
+const contents = createRoot(document.getElementById('contents'));
+
+contents.render(
+    createElement(App, {size: 8}, null),
+);
+
+
+App.js
+
+import { Component, createElement } from "react";
+
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+
+    const size = props.size;
+
+    this.state = {
+      values:Array.from(Array(size), (ignore, index) => index + 1)
+    };
+  }
+
+  render() {
+    const numbers = this.state.values.map((number, index) =>
+        createElement('li', {key: index.toString()}, number));
+
+    return createElement('div', null, 
+        createElement('h2', null, 'Numbers'),
+        createElement('ul', null, numbers));
+  }
+}
