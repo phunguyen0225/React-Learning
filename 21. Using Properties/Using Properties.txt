@@ -1,0 +1,39 @@
+- properties 
+- attributes of elements
+- passed like attributes of HTML elements
+
+    import { Component } from "react";
+
+    export default class App extends Component {
+        render() {
+            return <div>
+            <span style={{backgroundColor: 'red', color :'white'}}>Hello</span>  World
+            </div> //the first bracket represent a expression, the second bracket represent a map
+        }
+    }
+
+    - this way of passing attributes is nasty so we use style.css instead
+
+- passing class
+
+App.js:
+
+    import { Component } from "react";
+
+    export default class App extends Component {
+        render() {
+            return <div>
+            <span className="highlighted">Hello</span>  World
+            </div> 
+        }
+    }   
+
+style.css:
+
+    .highlighted {
+        background-color: red;
+        color: white;
+    }
+
+- accessing properties
+
