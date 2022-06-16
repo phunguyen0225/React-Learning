@@ -1,0 +1,29 @@
+- Pass a name to a greet component
+- What if the name is missing?
+- varying degree of failures
+
+greet.js:
+
+import { Component } from "react";
+
+export default class Greet extends Component {
+    render() {
+        return <span>Hello the { this.props.name } is of length { this.props.name.length }</span>
+    }
+}
+
+
+App.js:
+
+import { Component } from "react";
+import Greet from "./greet";
+
+export default class App extends Component {
+  render() {
+    return <div>
+      <p><Greet name="Phu"></Greet></p>
+      <p><Greet name="Nguyen"></Greet></p>
+      <p><Greet></Greet></p>  // this code will cause error
+    </div>
+  }
+}
