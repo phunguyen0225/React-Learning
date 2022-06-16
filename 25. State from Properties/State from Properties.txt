@@ -1,0 +1,5 @@
+- Passing properties
+- Setting State from Property
+- caution
+
+    * The code attach have errors, we'll fix in the next folder
