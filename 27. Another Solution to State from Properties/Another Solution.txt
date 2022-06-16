@@ -1,0 +1,4 @@
+- Updating state using properties
+- Avoid state if possible
+- If you truly need state...
+- use lifecycle events properly for this
