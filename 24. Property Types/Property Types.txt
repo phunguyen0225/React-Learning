@@ -1,0 +1,5 @@
+- what if the user sends a wrong type
+    - it can mess uo the display, it's best to provide error
+- use PropTypes to say the type
+    - import PropTypes from 'prop-types';
+- passing the right type
