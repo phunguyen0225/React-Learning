@@ -1,0 +1,4 @@
+- static defaultProps
+    - use a default value when it make sense. to Substitute something that is missing. 
+- making it required?
+    -rather than making it default, it can throw an error asking to provide properties
