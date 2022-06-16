@@ -1,0 +1,5 @@
+- Updating state using properties
+- Gotchas
+- The constructor vs. property change
+- One solution
+    - take the properties directly and update it
