@@ -1,0 +1,2 @@
+- Let's validate that the name is capitalized
+- What if the name is not provided?
