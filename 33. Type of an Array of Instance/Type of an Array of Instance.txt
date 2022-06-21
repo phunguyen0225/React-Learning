@@ -1,0 +1,1 @@
+- type of array of instance of a class
