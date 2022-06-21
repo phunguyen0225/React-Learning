@@ -1,0 +1,23 @@
+- Specifying required
+
+Greet.propTypes = {
+    name: PropTypes.string.isRequired
+}
+
+- Specifying default
+
+Greet.defaultProps = {
+    name: "missing name"
+}
+
+- But we can go further with valiation
+
+Greet.propTypes = {
+    //name: PropTypes.string
+    name: function(props, propName, componentName) {
+        console.log(props);
+        console.log(propName);
+        console.log(componentName);
+        return null;
+    }
+}
