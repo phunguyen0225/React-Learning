@@ -1,0 +1,2 @@
+- name is a string type
+- how can we say a type should be an array
