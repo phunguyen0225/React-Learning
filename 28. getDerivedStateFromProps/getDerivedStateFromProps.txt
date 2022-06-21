@@ -1,0 +1,10 @@
+- what's the purpose of this method?
+    - to take note of the property change for a component. So when the parent were to re-render a child, whatever property values it set that is obtain by the child from the getDervideStatefromProps method. 
+
+- static 
+    - doesn't have direct access to the instance/component itself, but it does have access to the new properties and old state of the component
+
+- new state from old state and props
+- derived (compute) state from props
+- what should this return?
+    - return the new state 
