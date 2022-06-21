@@ -1,0 +1,3 @@
+- type specification for an array
+- what if we pass numbers
+- type of array of string
