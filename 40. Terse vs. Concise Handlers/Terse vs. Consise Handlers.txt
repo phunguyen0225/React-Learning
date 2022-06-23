@@ -1,0 +1,21 @@
+- Writing the handler
+- Why not pass the function directly?
+- trouble with "this"
+
+cannot pass onClick={ this.change }
+
+- making the event handler concise
+- issue with passing function
+- what's the fix?
+- using bind
+
+onClick={ this.change.bind(this)
+
+Removing multiple calls to bind
+
+- binding to the context
+- this can become repetitive
+- how about changing the function in the object
+
+
+avoid bind and use arrow function
